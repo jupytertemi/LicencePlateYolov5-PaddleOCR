@@ -5,8 +5,9 @@ chmod +x setup.sh
 bash setup.sh
 
 #Enable a virtual environment
-source licenceplate_env/bin/activate
 python3 -m venv licenceplate_env
+source licenceplate_env/bin/activate
+
 
 
 #Use the below approach run the model and to provide an image as an argument.
